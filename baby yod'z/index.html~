@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+<head>
+<title>My Website </title>
+<link href="lab1.css" rel="stylesheet" type="text/css">
+</head>
+<header>
+<a href = "index.html"><img src="photos/baby-yoda.jpg" width = "100" height="86"
+alt="Baby Yoda: Property of Disney(C)" class="topleft" class="image"></a>
+Welcome to Baby Yod'z
+</header>
+<br><br>
+<body>
+<p></p>
+<div class="navigation">
+<a href="#About">About Me</a>
+<a href="#Courses">Courses</a>
+<a href="#Work_Experience">Work Experience</a>
+<a href="#Contact_Me">Contact Me</a>
+	</div>
+			
+<br>
+
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+		
+		<a id="About">
+	
+	<h1>About me</h1>
+<p>
+<img src="photos/frog.gif" class="image" align="left" height="200" width="220" 
+alt="Frog Gif: Property of Disney">
+	&nbsp&nbsp I am a small green creature from 
+	an unknown planet, and have been deserted and 
+	isolated from my species for the past 50 years.
+	<br>	My favorite food are small innocent frogs which I can 
+	find while scouring the plains of Arvala-7. I also enjoy
+	sipping soup made from the inhabitants of a local village on the planet Sargon.
+	Individuals seem to find me to be adorable due to my
+	cute pointy ears and big beady eyes. You could catch me hovering around in my floating baby carriage, whilst being walked by my new dad.
+</p>	
+		</a>
+		
+		</div>
+	</div>
+	<div class="card">
+	<div class="rightcolumn">
+<img src="photos/nike yoda.jpg"height="375" width="165" class ="image"
+alt="Nike Yoda">	
+<img src="photos/NY Yoda.jpg"height="250" width="250" class ="image"
+alt="NY Yoda">
+	</div>
+	</div>
+	
+<div class="card">
+		<div class="leftcolumn">
+	<p>
+<a id="Courses">	
+		<h1>Courses</h1>
+	<table>
+<tr>
+		<th>Course</th>
+		<th>Description</th>
+</tr>
+<tr>
+		<td>Mandalorian Foundling Program</td>
+		<td>Learn the ways of my new Dad</td>
+</tr>
+<tr>
+		<td>Soup Sipping Situations</td>
+		<td>Sip soup</td>
+</tr>
+<tr>
+		<td> Force Power Training	</td>
+		<td>Learn to use the force in a variety of ways</td>
+</tr>
+<tr>
+		<td> Cuteness Class </td>
+		<td>Learn how to be the cutest creature in the galaxy </td>
+</tr>
+	</table>
+		</p>	
+</a>
+		</div>
+
+	<div class="rightcolumn">
+		<img src="photos/sipsoup.gif" class="image"
+alt="Baby Yoda Sips Soup" height="300" width="250">
+<img src="photos/smiling.gif" class="image" alt="Baby Yoda smiling"
+height="300" width="250">
+
+	</div>
+</div>
+	
+	<div class="leftcolumn">
+		<div class="card">
+		<a id="Work_Experience">
+	
+	<h1>Work Experience</h1>
+<p>
+
+While my extended history is for the most part unknown, due to my status
+ of being a baby. I still have a few accomplishments in the times of recent.
+ Kuiil(pictured) was my caretaker during my adoptive fathers invasion of Nevarro, during this battle 
+ I managed to assist in the escape of my father and his friends. Additionally, when we were back on
+  the planet of Arvala-7 I saved my dad from the Mudhorn in order for him to retrieve "The Egg", which was used to escape the planet.
+</p>	
+		</a>
+		
+		</div>
+	</div>
+
+	<div class="card">
+	<div class="rightcolumn">
+<img src="photos/kuiil.png" class="image">
+	</div>
+	</div>
+	
+	<div class="rightcolumn">
+		<div class="card">
+		<a id="Contact_Me">
+	<div class="center">
+	<h1>Contact Me</h1>
+<p>
+<form action="mailto:personal@sait.ca" method="post">
+  <h4>Subject:</h4>
+  <textarea name="subject" placeholder="Write Subject here..." rows="1" cols="50"></textarea>
+
+
+<h4>Message:</h4>
+<textarea name="message" placeholder= "Write message here..."
+ rows="10" cols="80"></textarea>
+<br><br>
+<select name="Personal/Work">
+    <option value="Work">Work</option>
+    <option value="Personal">Personal</option>
+  </select>
+  <br><br>
+ <input type="submit" value="Submit"><input type="reset" value="Reset">
+	 
+</form> 
+</p>	
+		</a>
+			</div>
+		</div>
+	</div>
+
+<div class="card">
+<div class="center">
+
+Click me for more!<br></div>
+<a href="https://www.instagram.com/babyyoda_og/"><img src="photos/yodaship.jpg" alt="Baby Yoda in Ship" class="center"></a>
+
+</div>
+	<a href="#top" class="footer">Back to Top</a>
+</body>
+
+</html>
+
+
